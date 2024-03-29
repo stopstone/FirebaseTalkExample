@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FireTalk</string>
+    <string name="description_app_icon">앱 아이콘</string>
 </resources>
