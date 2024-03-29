@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "40272067840",
+    "project_id": "firetalk-1a87e",
+    "storage_bucket": "firetalk-1a87e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40272067840:android:43939eb8cffb083c8b07e5",
+        "android_client_info": {
+          "package_name": "com.stopstone.firetalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8NW-Fxm9qwdMd909KsoAO0kHydU5BpwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
