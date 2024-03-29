@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FireTalk</string>
     <string name="description_app_icon">앱 아이콘</string>
+    <string name="label_nickname">닉네임</string>
+    <string name="label_email">이메일</string>
+    <string name="label_password">비밀번호</string>
+    <string name="label_sign_up_button">입장하기</string>
 </resources>

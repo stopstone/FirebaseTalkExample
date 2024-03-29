@@ -40,5 +40,56 @@
         app:layout_constraintStart_toStartOf="@id/view_sign_up_title"
         app:layout_constraintTop_toTopOf="@id/view_sign_up_title" />
 
+    <EditText
+        android:id="@+id/et_sign_up_nickname"
+        style="@style/AppEditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:hint="@string/label_nickname"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_sign_up_title"
+        android:importantForAutofill="no" />
 
+    <EditText
+        android:id="@+id/et_sign_up_email"
+        style="@style/AppEditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="@string/label_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_sign_up_nickname"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/et_sign_up_password"
+        style="@style/AppEditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="@string/label_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_sign_up_email"
+        android:importantForAutofill="no" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_sign_up"
+        style="@style/AppEditTextStyle"
+        android:layout_width="0dp"
+        android:background="@color/orange_700"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:enabled="true"
+        android:text="@string/label_sign_up_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
